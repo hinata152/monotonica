@@ -2,7 +2,7 @@
 Add here global page variables to use throughout your website.
 -->
 +++
-author = "Septimia Zenobia"
+author = "hinagata"
 mintoclevel = 2
 prepath = "monotonica"
 
