@@ -1,8 +1,8 @@
 +++
-title = "license"
+title = "License"
 hascode = false
 date = Date(2022, 1, 16)
-rss = "monotonica"
+rss = "License"
 +++
 
 # License
