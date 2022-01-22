@@ -7,4 +7,6 @@ rss = "monotonica"
 
 # Articles
 
-2022-01-16: [Test page](/2022-01-16-engimono-migration/)
+## January 2022
+
+[縁起物の式年遷宮](/pages/2022-01-22-engimono-migration/) /
