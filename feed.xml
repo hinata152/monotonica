@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  About  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/about/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/about/index.html </guid>
+  <description>
+    <![CDATA[  About  ]]>
+  </description>  
+    
+  <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  縁起物の式年遷宮  ]]>
   </title>
   <link> https://hinata152.github.io/monotonica/pages/2022-01-22-engimono-migration/index.html </link>
