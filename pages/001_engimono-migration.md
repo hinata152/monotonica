@@ -3,7 +3,7 @@ title = "縁起物の式年遷宮"
 hascode = true
 date = Date(2022, 1, 22)
 rss = "Engimonoのノート移行先として、FranklinとGitHub Pagesによる静的サイトを作成したメモ。"
-tags = ["tech"]
+tags = ["misc"]
 +++
 
 # 縁起物の式年遷宮
