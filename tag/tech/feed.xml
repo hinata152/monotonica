@@ -9,14 +9,14 @@
 
   <channel>
     <title>
-      <![CDATA[  {{fd2rss website_title}}  ]]>
+      <![CDATA[  monotonica  ]]>
     </title>
-    <link> {{website_url}} </link>
+    <link> https://hinata152.github.io/monotonica/ </link>
     <description>
-      <![CDATA[  {{fd2rss website_description}}  ]]>
+      <![CDATA[  Engimono Notebook and more  ]]>
     </description>
     <atom:link
-      href="{{fd_rss_feed_url}}"
+      href="https://hinata152.github.io/monotonica/feed.xml"
       rel="self"
       type="application/rss+xml" />
 
@@ -25,8 +25,8 @@
   <title>
     <![CDATA[  縁起物の式年遷宮  ]]>
   </title>
-  <link> https://hinata152.github.io/monotonica/pages/2022-01-22-engimono-migration/index.html </link>
-  <guid> https://hinata152.github.io/monotonica/pages/2022-01-22-engimono-migration/index.html </guid>
+  <link> https://hinata152.github.io/monotonica/pages/001_engimono-migration/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/001_engimono-migration/index.html </guid>
   <description>
     <![CDATA[  Engimonoのノート移行先として、FranklinとGitHub Pagesによる静的サイトを作成したメモ。  ]]>
   </description>  
