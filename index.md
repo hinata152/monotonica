@@ -9,4 +9,4 @@ rss = "monotonica"
 
 ## January 2022
 
-[縁起物の式年遷宮](/pages/2022-01-22-engimono-migration/) /
+[縁起物の式年遷宮](/pages/001_engimono-migration/)
