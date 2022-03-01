@@ -1,0 +1,46 @@
+<!doctype html> <html lang=en > <meta charset=UTF-8 > <meta name=viewport  content="width=device-width, initial-scale=1"> <link rel=stylesheet  href="/monotonica/libs/highlight/github.min.css"> <link rel=stylesheet  href="/monotonica/css/franklin.css"> <link rel=stylesheet  href="/monotonica/css/poole_lanyon.css"> <link rel=stylesheet  href="/monotonica/css/adjust.css"> <link rel=icon  href="/monotonica/assets/favicon.png"> <title>忘れがちなGitコマンドまとめ</title> <input type=checkbox  class=sidebar-checkbox  id=sidebar-checkbox > <div class=sidebar  id=sidebar > <div class=sidebar-item > <p>A theme adapted from <a href="http://lanyon.getpoole.com/" target=_blank >Lanyon</a>.</p> </div> <nav class=sidebar-nav > <a class="sidebar-nav-item " href="/monotonica/">Home</a> <a class="sidebar-nav-item " href="/monotonica/about/">About</a> <a class="sidebar-nav-item " href="/monotonica/tag/tech/">Tech</a> <a class="sidebar-nav-item " href="/monotonica/tag/misc/">Misc</a> <a class="sidebar-nav-item " href="/monotonica/mono-research/">Research</a> <a class="sidebar-nav-item " href="/monotonica/license-monotonica/">License</a> </nav> <div class=sidebar-item > <p>&copy; hinagata.</p> </div> </div> <!-- Wrap is the content to shift when toggling the sidebar. We wrap the content to avoid any CSS collisions with our real content. --> <div class=wrap > <div class=masthead > <div class=container > <h3 class=masthead-title > <a href="/monotonica/" title=Home >monotonica</a> <small>Engimono Notebook and more</small> </h3> </div> </div> <div class="container content"> <div class=franklin-content > <h1 id="忘れがちなgitコマンドまとめ"><a href="#忘れがちなgitコマンドまとめ" class=header-anchor >忘れがちなGitコマンドまとめ</a></h1> <p>何度も調べているGitコマンドを自分用にまとめておく。（随時アップデート）</p> <div class=franklin-toc ><ol><li><a href="#ファイルの変更を部分的にステージングする">ファイルの変更を部分的にステージングする</a><li><a href="#ステージングした変更を表示する">ステージングした変更を表示する</a><li><a href="#すべてのファイルをステージングする">すべてのファイルをステージングする</a><li><a href="#ファイルだけチェックアウトする">ファイルだけチェックアウトする</a><li><a href="#ステージングを取り消す">ステージングを取り消す</a></ol></div> <h2 id="ファイルの変更を部分的にステージングする"><a href="#ファイルの変更を部分的にステージングする" class=header-anchor >ファイルの変更を部分的にステージングする</a></h2> <pre><code class="julia hljs">$ git add -p &lt;file名&gt;</code></pre>
+<p>追加時にオプション<code>-p</code>を付ける。 するとそれぞれの変更部分に対して以下のような選択肢が発生する。</p>
+<pre><code class="julia hljs">(<span class=hljs-number >1</span>/<span class=hljs-number >1</span>) Stage this hunk [y,n,q,a,d,e,?]?
+y - stage this hunk
+n - <span class=hljs-keyword >do</span> not stage this hunk
+q - quit; <span class=hljs-keyword >do</span> not stage this hunk or any of the remaining ones
+a - stage this hunk and all later hunks <span class=hljs-keyword >in</span> the file
+d - <span class=hljs-keyword >do</span> not stage this hunk or any of the later hunks <span class=hljs-keyword >in</span> the file
+e - manually edit the current hunk
+? - print help</code></pre>
+<p><code>y, n, e</code>あたりを活用する。 <code>e</code> &#40;&#61; edit&#41; では終わりの空行を含めるとエラーになるので、空行は残さない。</p>
+<p>参考: <a href="https://qiita.com/cotton_desu/items/bf08ac57d59b37dd5188">git add -p 使ってますか？ | Qiita</a></p>
+<h2 id="ステージングした変更を表示する"><a href="#ステージングした変更を表示する" class=header-anchor >ステージングした変更を表示する</a></h2>
+<pre><code class="julia hljs">$ git diff --cached</code></pre>
+<p>ファイルに加えた変更をステージングしてしまうと、その変更は<code>git diff</code>では見られなくなる。 ステージングした変更を見るためにはオプション<code>--cached</code>を付ける。</p>
+<p>参考: <a href="https://gist.github.com/kurotaky/5483492">https://gist.github.com/kurotaky/5483492</a></p>
+<h2 id="すべてのファイルをステージングする"><a href="#すべてのファイルをステージングする" class=header-anchor >すべてのファイルをステージングする</a></h2>
+<pre><code class="julia hljs">$ git add -A</code></pre>
+<p>引数は不要。 <code>.gitignore</code>で指定したファイルは無視される。</p>
+<blockquote>
+<p>If no &lt;pathspec&gt; is given when -A option is used, all files in the entire working tree are updated &#40;old versions of Git used to limit the update to the current directory and its subdirectories&#41;.</p>
+</blockquote>
+<p>参考: <a href="https://git-scm.com/docs/git-add">https://git-scm.com/docs/git-add</a></p>
+<h2 id="ファイルだけチェックアウトする"><a href="#ファイルだけチェックアウトする" class=header-anchor >ファイルだけチェックアウトする</a></h2>
+<pre><code class="julia hljs">git checkout コミットID file_path</code></pre>
+<p><code>git checkout コミットID</code>の後ろに<code>file_path</code>をさらに付けることで、ファイルだけチェックアウトできる。</p>
+<p>参考: <a href="https://qiita.com/takaaki4cards/items/36ac6b7536bc1fcb945b">git checkoutで特定のファイルをチェックアウトする | Qiita</a></p>
+<h2 id="ステージングを取り消す"><a href="#ステージングを取り消す" class=header-anchor >ステージングを取り消す</a></h2>
+<pre><code class="julia hljs">git restore --staged &lt;file&gt;</code></pre>
+<p><code>git status</code>したときに使い方が表示される。</p>
+<p>参考: <a href="https://git-scm.com/docs/git-restore">https://git-scm.com/docs/git-restore</a></p>
+<div class=page-foot >
+  <div class=copyright >
+    &copy; hinagata. Last modified: March 01, 2022. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+  </div>
+</div>
+</div>
+      </div>  
+    </div> 
+    
+    
+        
+
+
+    
+    <label for=sidebar-checkbox  class=sidebar-toggle ></label>
