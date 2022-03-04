@@ -9,7 +9,8 @@ rss = "monotonica"
 
 ## March 2022
 
-
+[ストレスコーピングの覚え書き](/pages/002_stress-coping/)
+/
 [Windowsを日本語表示に変える](/pages/006_windows-language-setting/)
 /
 [忘れがちなGitコマンドまとめ](/pages/004_git-command-reminder/)
