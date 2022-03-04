@@ -32,7 +32,7 @@ tags = ["misc"]
 > 1. 人に感情をぶつける
 > 1. 我慢する、先延ばしにする
 
-参考: [ストレスのしくみとワークシート](https://yokohamah.johas.go.jp/medical/mhc/img/mental_rousai_sheet.pdf)
+参考: [ストレスのしくみとワークシート](https://yokohamah.johas.go.jp/medical/mhc/img/mental_rousai_sheet.pdf#page=3)
 
 [横浜労災病院 勤労者メンタルヘルスセンター](https://yokohamah.johas.go.jp/medical/mhc/index.html)が提供してくれている[メンタルろうさい](https://yokohamah.johas.go.jp/medical/mhc/mentalrosai.html)にある。
 
