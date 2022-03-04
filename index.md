@@ -9,6 +9,9 @@ rss = "monotonica"
 
 ## March 2022
 
+
+[Windowsを日本語表示に変える](/pages/006_windows-language-setting/)
+/
 [忘れがちなGitコマンドまとめ](/pages/004_git-command-reminder/)
 
 ## January 2022
