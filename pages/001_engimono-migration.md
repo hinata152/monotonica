@@ -56,6 +56,13 @@ GitHub Pagesへのデプロイはやはり公式サイトの[Deploying on GitHub
 
 追記：Gitで手元ではドラフト稿をバージョン管理しつつ、mainブランチには成果物だけをコミットしたい。一旦`git checkout -b dev`で開発ブランチを作成したあとで、このブランチでドラフト稿をcommitしていく。公開できるだけの完成版になったら`git checkout main`からの`git merge --squash dev`とすることで、完成版までに加えた変更は1コミットにまとめられる。（[参考](https://stackoverflow.com/questions/5308816/how-can-i-merge-multiple-commits-onto-another-branch-as-a-single-squashed-commit)）その後`git push origin main`でmainブランチをpushする。この追記部分と本文が1コミットになって見えていればOK。
 
+追記2：
+上で書いた追記のやり方を使って記事ごとにブランチを作ると、しばらく作業していなかったブランチでは他記事の公開状況が反映されないまま、当該ブランチで書こうとしている記事を書いていくことになる。
+これは公開済の記事を引用したい場合には不便な状態だ。
+このようなときには`git rebase`を使って、「ブランチがどこから分岐したか」を変更してやる。
+`git rebase main dev`とすることで、devブランチの分岐元をmainブランチの先頭コミット（＝公開済の記事が存在する状態）へと変更することができる。
+`git rebase`については[Gitポケットリファレンス](https://gihyo.jp/book/2017/978-4-7741-8593-4)も参考になる。
+
 ## 結果
 
 - 記事執筆のはじめから終わりまでをMarkdown形式のテキストファイルで完結させられるようになった。
