@@ -9,6 +9,10 @@ rss = "monotonica"
 
 ## March 2022
 
+[Massively Multi-Core in Supercomputer (Rev.2)](/pages/007_massively-multi-core-in-supercomputer/)
+/
+[Eucalyn配列への乗り換え記録](/pages/003_eucalyn-keyboard-layout/)
+/
 [ストレスコーピングの覚え書き](/pages/002_stress-coping/)
 /
 [Windowsを日本語表示に変える](/pages/006_windows-language-setting/)
