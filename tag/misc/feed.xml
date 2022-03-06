@@ -23,15 +23,15 @@
 
 <item>
   <title>
-    <![CDATA[  ストレスコーピングの覚え書き  ]]>
+    <![CDATA[  Eucalyn配列への乗り換え記録  ]]>
   </title>
-  <link> https://hinata152.github.io/monotonica/pages/002_stress-coping/index.html </link>
-  <guid> https://hinata152.github.io/monotonica/pages/002_stress-coping/index.html </guid>
+  <link> https://hinata152.github.io/monotonica/pages/003_eucalyn-keyboard-layout/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/003_eucalyn-keyboard-layout/index.html </guid>
   <description>
-    <![CDATA[  ストレスコーピングの覚え書き  ]]>
+    <![CDATA[  キーボードレイアウトをQWERTY配列からEucalyn配列に乗り換えて適応するまでの記録。（随時アップデート）  ]]>
   </description>  
     
-  <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>  
+  <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
@@ -48,6 +48,25 @@
   <guid> https://hinata152.github.io/monotonica/pages/006_windows-language-setting/index.html </guid>
   <description>
     <![CDATA[  Windowsの表示言語を日本語に変えたときの覚え書き。  ]]>
+  </description>  
+    
+  <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  ストレスコーピングの覚え書き  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/pages/002_stress-coping/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/002_stress-coping/index.html </guid>
+  <description>
+    <![CDATA[  ストレスコーピングの覚え書き  ]]>
   </description>  
     
   <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>  
