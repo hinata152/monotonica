@@ -47,4 +47,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Zen Fonts Kaku Gothic / SIL Open Font License
 
-[https://github.com/googlefonts/zen-kakugothic](https://github.com/googlefonts/zen-kakugothic)
+Copyright 2022 The Zen Kaku Gothic Project Authors ([https://github.com/googlefonts/zen-kakugothic](https://github.com/googlefonts/zen-kakugothic))
