@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  monotonicaのフォント設定  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/pages/008_changing-font-in-monotonica/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/008_changing-font-in-monotonica/index.html </guid>
+  <description>
+    <![CDATA[  このブログのフォントを変更した記録。  ]]>
+  </description>  
+    
+  <pubDate>Sun, 13 Mar 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Massively Multi-Core in Supercomputer &#40;Rev.2&#41;  ]]>
   </title>
   <link> https://hinata152.github.io/monotonica/pages/007_massively-multi-core-in-supercomputer/index.html </link>
