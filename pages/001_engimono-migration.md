@@ -41,7 +41,7 @@ Markdown記法で記事を書き、かつGitで管理できるとなると、候
 ## 構築と運用
 
 公式サイトにある[Quick start](https://franklinjl.org/#quick_start)の手順通りに初期サイトを生成した。
-また構築作業の全体を通じて[先人の資料](https://terasakisatoshi.github.io/MathSeminar.jl/slideshow/franklin/build/#1)に助けられた。
+また構築作業の全体を通じて[先人の資料](https://terasakisatoshi.github.io/MathSeminar.jl/slideshow/franklin/build/#1)に助けられた[^5] 。
 
 - `using Franklin`からの`serve()`することでlocalhostにウェブページを表示できる。ページの様子を確認しつつ、テキストファイルを更新するとウェブページも自動更新されるのでとても楽だった。
 - [Working with Franklin](https://franklinjl.org/workflow/)でフォルダ構造を確認し、ブログ記事のテキストファイルは`pages`フォルダに置くことに。
@@ -101,3 +101,5 @@ end
 [^3]: [https://hyrodium.github.io/en/](https://hyrodium.github.io/en/)（[Zenn解説記事](https://zenn.dev/hyrodium/articles/dea67b9a233356)）
 
 [^4]: [https://mizutokadowaki0312.github.io/Documenter_website/build/](https://mizutokadowaki0312.github.io/Documenter_website/build/)（[Zenn解説記事](https://zenn.dev/mizuto/articles/adcb28db0e427c)）
+
+[^5]: [Franklin.jl で github.io のページを作ろう. | Zenn](https://zenn.dev/terasakisatoshi/articles/7ad20e468d9ed7) も参考になる
