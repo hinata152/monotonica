@@ -80,3 +80,13 @@ git restore --staged <file>
 `git status`したときに使い方が表示される。
 
 参考: [https://git-scm.com/docs/git-restore](https://git-scm.com/docs/git-restore)
+
+## 変更を部分的にstashする
+
+```
+git stash -p
+```
+
+`git add -p`と同様に、それぞれのhunkに対してstashするかどうかを選択できる。
+
+参考: [https://git-scm.com/docs/git-stash](https://git-scm.com/docs/git-stash)
