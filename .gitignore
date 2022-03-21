@@ -3,5 +3,6 @@ __site/
 node_modules/
 package-lock.json
 drafts/
+pages/attachments
 mono-research/
 .vscode/
