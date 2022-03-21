@@ -9,6 +9,8 @@ rss = "monotonica"
 
 ## March 2022
 
+[ひとりでディスコード](/pages/009_lonely-discord/)
+/
 [monotonicaのフォント設定](/pages/008_changing-font-in-monotonica/)
 /
 [Massively Multi-Core in Supercomputer (Rev.2)](/pages/007_massively-multi-core-in-supercomputer/)
