@@ -535,4 +535,5 @@ a.sidebar-nav-item:focus {
 
 code {
   font-size: 16px;
+  font-family: 'JetBrains Mono', monospace;
 }
