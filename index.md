@@ -9,6 +9,8 @@ rss = "monotonica"
 
 ## March 2022
 
+[Cyclist supported by NSE (Rev.2)](/pages/010_cyclist-supported-by-nse/)
+/
 [ひとりでディスコード](/pages/009_lonely-discord/)
 /
 [monotonicaのフォント設定](/pages/008_changing-font-in-monotonica/)
