@@ -24,14 +24,18 @@ tags = ["misc"]
 
 自分がこのブログを閲覧する環境として、OSではWindowsとiOS (iPadOS) がある。
 互換性の観点からはWebフォントを使うのが良さそうだ。
-普段のWindowsでは[BIZ UDゴシック](https://www.morisawa.co.jp/products/fonts/bizplus/lineup/)をよく使っているけど、これはWebフォントとしては利用できないようだった。（[参考](https://support.bizplus.typesquare.com/hc/ja/articles/360004820071-Web%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E3%81%A8%E3%81%97%E3%81%A6%E5%88%A9%E7%94%A8%E5%8F%AF%E8%83%BD%E3%81%A7%E3%81%99%E3%81%8B-)）
-代わりに[Google Fonts](https://fonts.google.com/)が無料で使えるWebフォントを提供してくれているので、その中から探してみることにする。
+[Google Fonts](https://fonts.google.com/)が無料で使えるWebフォントを提供してくれているので、その中から探してみることにした。
 
 - やわらかめのフォントとして[M PLUS 1p](https://fonts.google.com/specimen/M+PLUS+1p)は良かったけど、実際に文章を表示させてみたら丸まりすぎるのが少しだけ気になった。
 - [Noto Sans Japanese](https://fonts.google.com/noto/specimen/Noto+Sans+JP)も良かったけど、今度は逆に直線的なのが少しだけ気になった。もうちょっとやさしい感じが欲しかった。
   - ただし、ブログのタイトルつながりでこのフォントを選ぶのもありだったかもしれない。
 - 最終的に[Zen Kaku Gothic New](https://fonts.google.com/specimen/Zen+Kaku+Gothic+New)に落ち着いた。
   - Styleを**Regular 400**にするか**Medium 500**にするか悩んだけど、視認性の良さから**Medium 500**を選択した。
+
+追記：フォントを選定した当時は使い慣れていた[BIZ UDゴシック](https://www.morisawa.co.jp/products/fonts/bizplus/lineup/)を使いたかったものの、Webフォントとしては利用できないようだった。（[参考](https://support.bizplus.typesquare.com/hc/ja/articles/360004820071-Web%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E3%81%A8%E3%81%97%E3%81%A6%E5%88%A9%E7%94%A8%E5%8F%AF%E8%83%BD%E3%81%A7%E3%81%99%E3%81%8B-)）
+その後、BIZ UDフォントがGoogle Fontsに提供されるという[プレスリリース](https://www.morisawa.co.jp/about/news/6706)があった。
+あらためてBIZ UDゴシックを[Zen Kaku Gothic New](https://fonts.google.com/specimen/Zen+Kaku+Gothic+New)と見比べてみると、ややゴシック体の感じが強いなと感じた。
+理想形 [^1] との（主観的な）近さでいえば現状のほうがよかろう、と判断してフォント設定はそのままにしている。
 
 ## HTMLとCSSに適用
 
@@ -48,6 +52,7 @@ tags = ["misc"]
   - ページの読み込みにオーバーヘッドが発生するかと心配したけれど、体感としてはほとんど気にならない程度。
 - Medium 500のスタイルだと行間がやや密になりすぎたので、行高さのパラメータ`line-height`も併せて微調整している。
 - 本文のフォントは変わった一方、コードブロックのフォントがまだ変わっていない。普段のコード書きには[JetBrains Mono](https://www.jetbrains.com/lp/mono/)を使っていて、調べたら[Google FontsでWebフォントが提供されていた](https://fonts.google.com/specimen/JetBrains+Mono)のでありがたい。追って適用する。
+  - **Medium 500**で適用済み。
 - [Zen Kaku Gothic New](https://fonts.google.com/specimen/Zen+Kaku+Gothic+New)には[GitHubリポジトリ](https://github.com/googlefonts/zen-kakugothic)があって、[SIL Open Font Licenseの下で公開されている](https://github.com/googlefonts/zen-kakugothic/blob/main/OFL.txt)。ありがたく使わせていただいた。SIL Open Font Licenseについては記事 [^2] が参考になった。
 
 [^1]: [このブログのフォントの話 | 愛のらくがき帳](https://blog.ishotihadus.com/archives/24)
