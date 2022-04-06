@@ -63,6 +63,16 @@ Nitroは月額1050円のサブスクリプションであり、仮に一年間�
 しかしそれを逆手に取って、元を取ろうという気持ちで情報収集と思考の記録ができれば良いと考えた。
 そんな吝嗇駆動な情報収集とアウトプットが今のところはうまく働いている。
 
+## 参考：価格の比較
+
+- [Scrapbox](https://scrapbox.io/pricing?lang=ja) 個人利用については無料プランあり
+- [Notion](https://www.notion.so/ja-jp/pricing) 個人利用については無料プランあり
+- [Evernote Personal](https://evernote.com/compare-plans) 680 JPY/month or 5800 JPY/year (= 483 JPY/month)
+- [Discord Nitro](https://support.discord.com/hc/ja/articles/115000435108-Discord-Nitro-Classic-Nitro) 1050 JPY/month
+- [Roam Research](https://roamresearch.com/) \$15/month
+  - [Rebuild.fmのエピソード300](https://rebuild.fm/300/)（**omoさんゲスト回**）でも言及されていたBeliever Planは \$500/5years (= \$8.33/month)
+
+月額でいえば[Roam Research](https://roamresearch.com/)よりも[Discord Nitro](https://support.discord.com/hc/ja/articles/115000435108-Discord-Nitro-Classic-Nitro)のほうがお手頃価格であり、かつゲーマーとしての矜持も満たされる。
 
 [^1]: Nitroへの加入でサーバーブーストが2つ手に入る。手に入れたサーバーブースト2つをレベルなしのサーバーに使うことでレベル1にできる。なおレベルに応じて必要なサーバーブーストの数は増えていく（レベル2になるにはサーバーブースト7つ、レベル3になるにはサーバーブースト14つ）。課金との相談で現状ではレベル1にとどめている。
 [^2]: [Server Boosting FAQ 💨 | Discord](https://support.discord.com/hc/en-us/articles/360028038352)
