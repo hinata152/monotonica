@@ -23,6 +23,44 @@
 
 <item>
   <title>
+    <![CDATA[  Franklinの構文メモ  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/pages/011_franklin-syntax/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/011_franklin-syntax/index.html </guid>
+  <description>
+    <![CDATA[  Franklinでどのような構文が使えるかをおさらいする。（随時アップデートするかも）  ]]>
+  </description>  
+    
+  <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  FORmula-TRANslation Translation into Julia &#40;1&#41;  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/pages/012_formula-translation-translation-into-julia1/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/012_formula-translation-translation-into-julia1/index.html </guid>
+  <description>
+    <![CDATA[  FORTRANをJuliaに翻訳します。その1  ]]>
+  </description>  
+    
+  <pubDate>Wed, 04 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Cyclist supported by NSE &#40;Rev.2&#41;  ]]>
   </title>
   <link> https://hinata152.github.io/monotonica/pages/010_cyclist-supported-by-nse/index.html </link>
