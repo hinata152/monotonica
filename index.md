@@ -7,6 +7,12 @@ rss = "monotonica"
 
 # Articles
 
+## May 2022
+
+[FORmula-TRANslation Translation into Julia (1)](/pages/012_formula-translation-translation-into-julia1)
+/
+[Franklinの構文メモ](/pages/011_franklin-syntax/)
+
 ## March 2022
 
 [Cyclist supported by NSE (Rev.2)](/pages/010_cyclist-supported-by-nse/)
