@@ -85,7 +85,7 @@ ignore = [..., "monotonica/node_modules/", "monotonica/_assets/", "monotonica/_c
 pages <<===>> （途中までのパス）\monotonica\pages のシンボリック リンクが作成されました
 ```
 
-- (optional) サイドバーの設定ファイル `_layout/sidebar.html` において以下を`class="sidebar-nav-item` の並びに追記
+- (optional) サイドバーの設定ファイル `_layout/sidebar.html` において以下を`<a class="sidebar-nav-item...` の並びに追記
 
 ```
 <a class="sidebar-nav-item {{ispage monotonica/*}}active{{end}}" href="/monotonica/">monotonica</a>
