@@ -28,6 +28,8 @@ tags = ["misc"]
 
 ## エディタ
 
+- `Alt+Shift+(Left|Right)Arrow`: (Shrink|Expand) selection
+  - 括弧内の文字列を選択するときなどに。
 - `Ctrl+-`: Go Back / `Ctrl+=`: Go Forward
   - デフォルト設定を上書きした。
 
@@ -104,3 +106,19 @@ Franklinであれば式番号が自動で付与される：[Franklinの構文メ
 拡張機能[Foam](https://foambubble.github.io/foam/)をおためし中。楽しい。
 
 - `Alt+d`: Open Daily Note
+- `Ctrl+Alt+v`: Paste Image
+  - クリップボードには画像ファイルではなく、イメージそのものを入れておく。
+  - 画像ファイルはattachmentsに入る。
+- `/tomorrow`など: 対応するDaily Noteの作成
+
+| Snippet    | Date          |
+| ---------- | ------------- |
+| /tomorrow  | tomorrow      |
+| /yesterday | yesterday     |
+| /monday    | next Monday   |
+| /+1d       | tomorrow      |
+| /-3d       | 3 days ago    |
+| /+1w       | in a week     |
+| /-1m       | one month ago |
+| /+1y       | in one year   |
+（[foam-template](https://github.com/foambubble/foam-template)のドキュメントより引用）

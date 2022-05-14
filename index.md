@@ -9,6 +9,8 @@ rss = "monotonica"
 
 ## May 2022
 
+[monotonicaの物書き](/pages/015_architectural-decision-records/)
+/
 [Visual Studio Codeの覚え書き](/pages/014_howto-vscode/)
 /
 [monotonicaの運用メモ](/pages/013_monotonica-in-gardenia/)
