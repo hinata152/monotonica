@@ -33,20 +33,20 @@ tags = ["misc"]
 - `Ctrl+-`: Go Back / `Ctrl+=`: Go Forward
   - デフォルト設定を上書きした。
 
-### グループ間での移動
+### エディタのグループ移動
 
 - `Ctrl+￥`: Split editor
   - `Ctrl+/` はToggle Comment
 - `Ctrl+Alt+LeftArrow`: Move Editor into Previous Group
 - `Ctrl+Alt+RightArrow`: Move Editor into Next Group
 
-グループ間での移動は[ターミナルからエディタに戻るとき](#ターミナルからエディタに戻るとき)と同じ。
+エディタグループ間の移動は[ターミナルからエディタに戻るとき](#ターミナルからエディタに戻るとき)と同じ。
 
 ## ターミナル
 
 - `Ctrl+j`: Toggle Panel Visibility
 
-### ターミナル間での移動
+### ターミナル間の移動
 
 - `Alt+LeftArrow`: Focus Previous Terminal in Terminal Group
 - `Alt+RightArrow`: Focus Next Terminal in Terminal Group
@@ -108,7 +108,7 @@ Franklinであれば式番号が自動で付与される：[Franklinの構文メ
 - `Alt+d`: Open Daily Note
 - `Ctrl+Alt+v`: Paste Image
   - クリップボードには画像ファイルではなく、イメージそのものを入れておく。
-  - 画像ファイルはattachmentsに入る。
+  - 自動生成される画像ファイルはattachmentsに入る。
 - `/tomorrow`など: 対応するDaily Noteの作成
 
 | Snippet    | Date          |

@@ -1,6 +1,6 @@
 +++
 title = "monotonicaの物書き"
-hascode = true
+hascode = false
 date = Date(2022, 5, 14)
 rss = "monotonicaでの書き物はArchitectural Decision Records (ADR) を意識して書いている。"
 tags = ["misc"]
@@ -11,7 +11,7 @@ tags = ["misc"]
 monotonicaでの書き物はArchitectural Decision Records (ADR) を意識して書いている。
 
 ADRをどこで知ったかは定かではないけれども、かつて[Rebuild.fmのエピソード300](https://rebuild.fm/300/)（**omoさんゲスト回**）で聴いたことを覚えている。
-僕が参考にしていたのは、おそらく検索でヒットしたであろうMichael Nygardによる[ブログ記事](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html)だった。
+僕が参考にしていたのは、おそらく検索でヒットしたであろう[Michael Nygardによるブログ記事](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions.html)だった。
 この記事によればADRは以下の要素からなる：
 
 - **Title** These documents have names that are short noun phrases. For example, "ADR 1: Deployment on Ruby on Rails 3.0.10" or "ADR 9: LDAP for Multitenant Integration"
@@ -20,7 +20,7 @@ ADRをどこで知ったかは定かではないけれども、かつて[Rebuild
 - **Status** A decision may be "proposed" if the project stakeholders haven't agreed with it yet, or "accepted" once it is agreed. If a later ADR changes or reverses a decision, it may be marked as "deprecated" or "superseded" with a reference to its replacement.
 - **Consequences** This section describes the resulting context, after applying the decision. All consequences should be listed here, not just the "positive" ones. A particular decision may have positive, negative, and neutral consequences, but all of them affect the team and project in the future.
 
-これら要素をすべて厳密に含めているわけではないけれども、1つの記事には困りごとの背景情報、技術選定の過程（Decision Recordsなのでなぜその決定をしたのかを記録しておきたい）、導入の結果を含めるように心がけている。
+monotonicaの書き物ではこれら要素をすべて厳密に含めているわけではないけれども、1つの記事には困りごとの背景情報、技術選定の過程（Decision Recordsなのでなぜその決定をしたのかを記録しておきたい）、導入の結果を含めるように心がけている。
 
 その他、意識していることとして：
 
