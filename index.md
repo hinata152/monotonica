@@ -9,9 +9,11 @@ rss = "monotonica"
 
 ## May 2022
 
+[Visual Studio Codeの覚え書き](/pages/014_howto-vscode/)
+/
 [monotonicaの運用メモ](/pages/013_monotonica-in-gardenia/)
 /
-[FORmula-TRANslation Translation into Julia (1)](/pages/012_formula-translation-translation-into-julia1)
+[FORmula-TRANslation Translation into Julia (1)](/pages/012_formula-translation-translation-into-julia1/)
 /
 [Franklinの構文メモ](/pages/011_franklin-syntax/)
 
