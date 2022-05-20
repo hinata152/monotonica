@@ -32,6 +32,8 @@ tags = ["misc"]
   - 括弧内の文字列を選択するときなどに。
 - `Ctrl+-`: Go Back / `Ctrl+=`: Go Forward
   - デフォルト設定を上書きした。
+- Maximize Editor Group / Reset Editor Group Sizes
+  - 特定のグループを一時的に大きく（元に戻す）する場合に。
 
 ### エディタのグループ移動
 
@@ -62,6 +64,12 @@ tags = ["misc"]
 - `Ctrl+2`: Focus Second Editor Group
 - `Ctrl+3`: Focus Third Editor Group
 
+### 検索と置換
+
+- `Ctrl+f`: 検索 / `Ctrl+h`: 置換
+  - `Alt+h`: 範囲指定
+  - `Ctrl+Alt+Enter`: すべて置換
+
 ## Markdown (Markdown All in One)
 
 拡張機能[Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)を入れている。便利。
@@ -91,6 +99,8 @@ tags = ["misc"]
 $$ Ma = 3.4 $$
 
 Franklinであれば式番号が自動で付与される：[Franklinの構文メモ](/pages/011_franklin-syntax/)
+
+参考: [LaTeXの特殊文字・特別記号](http://www.ic.daito.ac.jp/~mizutani/tex/special_characters.html)
 
 ### 要おためし
 
