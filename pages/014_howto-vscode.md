@@ -67,7 +67,7 @@ tags = ["misc"]
 ### 検索と置換
 
 - `Ctrl+f`: 検索 / `Ctrl+h`: 置換
-  - `Alt+h`: 範囲指定
+  - `Alt+l`: 選択範囲を検索
   - `Ctrl+Alt+Enter`: すべて置換
 
 ## Markdown (Markdown All in One)
@@ -131,4 +131,5 @@ Franklinであれば式番号が自動で付与される：[Franklinの構文メ
 | /+1w       | in a week     |
 | /-1m       | one month ago |
 | /+1y       | in one year   |
+
 （[foam-template](https://github.com/foambubble/foam-template)のドキュメントより引用）

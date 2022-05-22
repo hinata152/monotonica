@@ -9,6 +9,8 @@ rss = "monotonica"
 
 ## May 2022
 
+[Visual Studio Codeの覚え書き（デバッグ編）](/pages/017_howto-vscode-debug/)
+/
 [monotonicaの物書き](/pages/015_architectural-decision-records/)
 /
 [Visual Studio Codeの覚え書き](/pages/014_howto-vscode/)
