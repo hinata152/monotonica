@@ -1,7 +1,7 @@
 +++
 title = "Visual Studio Codeの覚え書き（デバッグ編）"
 hascode = true
-date = Date(2022, 5, 14)
+date = Date(2022, 5, 22)
 rss = "最近よく使うエディタの覚え書き。"
 tags = ["misc"]
 +++
