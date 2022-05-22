@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  Visual Studio Codeの覚え書き（デバッグ編）  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/pages/017_howto-vscode-debug/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/017_howto-vscode-debug/index.html </guid>
+  <description>
+    <![CDATA[  最近よく使うエディタの覚え書き。Juliaのデバッグ実行について  ]]>
+  </description>  
+    
+  <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Visual Studio Codeの覚え書き  ]]>
   </title>
   <link> https://hinata152.github.io/monotonica/pages/014_howto-vscode/index.html </link>
