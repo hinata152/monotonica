@@ -9,6 +9,8 @@ rss = "monotonica"
 
 ## May 2022
 
+[Quasi 1-D nozzle flow as the first echelon](/pages/018_quasi1d-nozzle-flow1/)
+/
 [Visual Studio Codeの覚え書き（デバッグ編）](/pages/017_howto-vscode-debug/)
 /
 [monotonicaの物書き](/pages/015_architectural-decision-records/)
