@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  Quasi 1-D nozzle flow as the first echelon  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/pages/018_quasi1d-nozzle-flow1/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/018_quasi1d-nozzle-flow1/index.html </guid>
+  <description>
+    <![CDATA[  準1次元ノズルフローをシミュレーションで解きます。  ]]>
+  </description>  
+    
+  <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Visual Studio Codeの覚え書き（デバッグ編）  ]]>
   </title>
   <link> https://hinata152.github.io/monotonica/pages/017_howto-vscode-debug/index.html </link>
