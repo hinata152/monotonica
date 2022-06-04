@@ -7,6 +7,10 @@ rss = "monotonica"
 
 # Articles
 
+## June 2022
+
+[JuliaでGIFアニメーションを作る](/pages/019_gif-animation-by-Julia/)
+
 ## May 2022
 
 [Quasi 1-D nozzle flow as the first echelon](/pages/018_quasi1d-nozzle-flow1/)
