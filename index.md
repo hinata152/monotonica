@@ -9,6 +9,8 @@ rss = "monotonica"
 
 ## June 2022
 
+[Conservation form in Quasi 1-D nozzle flow](/pages/020_quasi1d-nozzle-flow2/)
+/
 [JuliaでGIFアニメーションを作る](/pages/019_gif-animation-by-Julia/)
 
 ## May 2022
