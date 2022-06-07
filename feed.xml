@@ -23,6 +23,44 @@
 
 <item>
   <title>
+    <![CDATA[  Conservation form in Quasi 1-D nozzle flow  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/pages/020_quasi1d-nozzle-flow2/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/020_quasi1d-nozzle-flow2/index.html </guid>
+  <description>
+    <![CDATA[  準1次元ノズルフローを保存型で解きます。  ]]>
+  </description>  
+    
+  <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  JuliaでGIFアニメーションを作る  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/pages/019_gif-animation-by-Julia/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/019_gif-animation-by-Julia/index.html </guid>
+  <description>
+    <![CDATA[  JuliaでPlotsのGIFアニメーションを作るときの覚え書き。  ]]>
+  </description>  
+    
+  <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Quasi 1-D nozzle flow as the first echelon  ]]>
   </title>
   <link> https://hinata152.github.io/monotonica/pages/018_quasi1d-nozzle-flow1/index.html </link>

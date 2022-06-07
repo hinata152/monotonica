@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  JuliaでGIFアニメーションを作る  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/pages/019_gif-animation-by-Julia/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/019_gif-animation-by-Julia/index.html </guid>
+  <description>
+    <![CDATA[  JuliaでPlotsのGIFアニメーションを作るときの覚え書き。  ]]>
+  </description>  
+    
+  <pubDate>Sat, 04 Jun 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Visual Studio Codeの覚え書き（デバッグ編）  ]]>
   </title>
   <link> https://hinata152.github.io/monotonica/pages/017_howto-vscode-debug/index.html </link>
