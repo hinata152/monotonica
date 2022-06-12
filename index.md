@@ -9,6 +9,8 @@ rss = "monotonica"
 
 ## June 2022
 
+[Juliaでの配列のコピー](/pages/022_copy-arrays-in-Julia/)
+/
 [音速、無次元化、状態方程式](/pages/021_a-nondim-prhort/)
 /
 [Conservation form in Quasi 1-D nozzle flow](/pages/020_quasi1d-nozzle-flow2/)
