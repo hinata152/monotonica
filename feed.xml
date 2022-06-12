@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  Juliaでの配列のコピー  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/pages/022_copy-arrays-in-Julia/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/022_copy-arrays-in-Julia/index.html </guid>
+  <description>
+    <![CDATA[  shallow copyとdeep copyの違いについて。  ]]>
+  </description>  
+    
+  <pubDate>Sun, 12 Jun 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  音速、無次元化、状態方程式  ]]>
   </title>
   <link> https://hinata152.github.io/monotonica/pages/021_a-nondim-prhort/index.html </link>
