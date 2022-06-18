@@ -74,5 +74,8 @@ Nitroは月額1050円のサブスクリプションであり、仮に一年間�
 
 月額でいえば[Roam Research](https://roamresearch.com/)よりも[Discord Nitro](https://support.discord.com/hc/ja/articles/115000435108-Discord-Nitro-Classic-Nitro)のほうがお手頃価格であり、かつゲーマーとしての矜持も満たされる。
 
+追記: Visual Studio Codeの拡張機能[Foam](https://foambubble.github.io/foam/)を使うことで[Roam Research](https://roamresearch.com/)あるいは[Obsidian](https://obsidian.md/) [^3] のようにページ同士をリンクで接続したり、ページ間リンクを可視化したGraph Viewを作ることができる。個人的には開発（執筆）環境はVisual Studio Codeで閉じたかったので、大変ありがたく活用しているし、[Discord Nitro](https://support.discord.com/hc/ja/articles/115000435108-Discord-Nitro-Classic-Nitro)以外の有料サービスへの課金に迷うこともなくなった。
+
 [^1]: Nitroへの加入でサーバーブーストが2つ手に入る。手に入れたサーバーブースト2つをレベルなしのサーバーに使うことでレベル1にできる。なおレベルに応じて必要なサーバーブーストの数は増えていく（レベル2になるにはサーバーブースト7つ、レベル3になるにはサーバーブースト14つ）。課金との相談で現状ではレベル1にとどめている。
 [^2]: [Server Boosting FAQ 💨 | Discord](https://support.discord.com/hc/en-us/articles/360028038352)
+[^3]: [Rebuild.fmのエピソード301](https://rebuild.fm/301/)でhigeponさんが言及していた
