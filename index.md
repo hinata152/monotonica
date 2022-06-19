@@ -9,6 +9,8 @@ rss = "monotonica"
 
 ## June 2022
 
+[Subsonic Outflow Condition in Quasi 1-D nozzle flow](/pages/023_quasi1d-nozzle-flow3/)
+/
 [Juliaでの配列のコピー](/pages/022_copy-arrays-in-Julia/)
 /
 [音速、無次元化、状態方程式](/pages/021_a-nondim-prhort/)
