@@ -71,9 +71,9 @@ tc[N] = pc[N] / rc[N]             # dependent
 cc[N] = T0 * sqrt(pc[N] / rc[N])  # dependent
 
 # conservative variables
-q[1,j] = rc[N] * a[N]
-q[2,j] = rc[N] * uc[N] * a[N]
-q[3,j] = rc[N] * (tc[N] / (gamma - 1.0) + 0.5 * gamma * uc[N]^2) * a[N]
+q[1,N] = rc[N] * a[N]
+q[2,N] = rc[N] * uc[N] * a[N]
+q[3,N] = rc[N] * (tc[N] / (gamma - 1.0) + 0.5 * gamma * uc[N]^2) * a[N]
 ```
 
 ## 結果
@@ -86,9 +86,9 @@ q[3,j] = rc[N] * (tc[N] / (gamma - 1.0) + 0.5 * gamma * uc[N]^2) * a[N]
 理由として考えているところ:
 
 - 境界条件として変数を固定することの拘束が強い（固定端みたくなってる）
-- 文献 [^2] いわく「最大固有値に合わせて時間刻み幅を設定すると、最大でない固有値に対応する固有ベクトルの成分の成長が遅くなる」 (p.151) 今回は超音速流出のケースよりも低速なので成長が遅くなっている
+- 文献 [^2] いわく「最大固有値に合わせて時間刻み幅を設定すると、最大でない固有値に対応する固有ベクトルの成分の成長が遅くなる (p. 151)」今回は超音速流出のケースよりも低速なので成長が遅くなっている
 
-圧力比$p_e/p_0 = 0.85$を与えた場合には流れ場の状況が厳しくなって発散する。
+圧力比$p_e/p_0 = 0.85$を与えた場合には流れ場の状況が厳しくなって発散する:
 
 ![](/pages/img/023_mach-pep0-085.gif)
 
@@ -103,4 +103,4 @@ q[3,j] = rc[N] * (tc[N] / (gamma - 1.0) + 0.5 * gamma * uc[N]^2) * a[N]
 
 
 [^1]: John D. Anderson, "Computational Fluid Dynamics: The Basics With Applications," McGraw-Hill Inc. (1995)
-[^1]: 藤井, 立川, "Pythonで学ぶ流体力学の数値計算法," オーム社 (2020)
+[^2]: 藤井, 立川, "Pythonで学ぶ流体力学の数値計算法," オーム社 (2020)
