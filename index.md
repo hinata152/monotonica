@@ -9,6 +9,8 @@ rss = "monotonica"
 
 ## June 2022
 
+[monotonicaの本読み](pages/024_monotonica-library/)
+/
 [Subsonic Outflow Condition in Quasi 1-D nozzle flow](/pages/023_quasi1d-nozzle-flow3/)
 /
 [Juliaでの配列のコピー](/pages/022_copy-arrays-in-Julia/)
