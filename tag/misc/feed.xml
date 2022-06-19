@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  monotonicaの本読み  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/pages/024_monotonica-library/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/024_monotonica-library/index.html </guid>
+  <description>
+    <![CDATA[  このサイトの記事を書くときに参考にしている本。（随時アップデート）  ]]>
+  </description>  
+    
+  <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Juliaでの配列のコピー  ]]>
   </title>
   <link> https://hinata152.github.io/monotonica/pages/022_copy-arrays-in-Julia/index.html </link>

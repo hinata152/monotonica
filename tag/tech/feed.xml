@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  Subsonic Outflow Condition in Quasi 1-D nozzle flow  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/pages/023_quasi1d-nozzle-flow3/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/023_quasi1d-nozzle-flow3/index.html </guid>
+  <description>
+    <![CDATA[  準1次元ノズルフローを亜音速流出条件で解きます。  ]]>
+  </description>  
+    
+  <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  音速、無次元化、状態方程式  ]]>
   </title>
   <link> https://hinata152.github.io/monotonica/pages/021_a-nondim-prhort/index.html </link>
