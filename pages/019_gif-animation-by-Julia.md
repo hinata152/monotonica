@@ -79,3 +79,39 @@ gif(anim, "FTCS.gif", fps=2)
 これは残念。
 
 [^1]: 藤井, 立川. Pythonで学ぶ流体力学の数値計算法. Ohmsha, 2020.
+
+追記: アニメーションを取得するステップ間隔を変えたい場合、ループ内で`plot()`を呼ぶ回数を制御するのではなく、for文に付随する`every`で制御する。
+
+例えば10ステップおきにしたい場合、
+
+```julia
+anim = @animate for n=1:nmax
+
+    ...
+
+    if n % 10 == 0
+        plt = plot(x, q, label="FTCS",
+                   linestyle=:solid, color=:black,
+                   marker=:circle, markercolor=:blue,
+                   title="n=$n", xlabel="x", ylabel="q", ylim=(0,2.0))
+        # display(plt) # check
+    end
+end
+```
+
+ではなく、
+
+```julia
+anim = @animate for n=1:nmax
+
+    ...
+
+    plt = plot(x, q, label="FTCS",
+               linestyle=:solid, color=:black,
+               marker=:circle, markercolor=:blue,
+               title="n=$n", xlabel="x", ylabel="q", ylim=(0,2.0))
+    # display(plt) # check
+end every 10
+```
+
+とする。（[参考](https://docs.juliaplots.org/latest/animations/)）
