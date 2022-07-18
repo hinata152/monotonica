@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  VisItでの可視化メモ  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/pages/025_visualizaiton-using-visit/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/025_visualizaiton-using-visit/index.html </guid>
+  <description>
+    <![CDATA[  解析結果をVisItで可視化するときのメモ。  ]]>
+  </description>  
+    
+  <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  Subsonic Outflow Condition in Quasi 1-D nozzle flow  ]]>
   </title>
   <link> https://hinata152.github.io/monotonica/pages/023_quasi1d-nozzle-flow3/index.html </link>
