@@ -9,6 +9,8 @@ rss = "monotonica"
 
 ## July 2022
 
+[Podcast編集メモ](pages/026_podcast-audio-processing/)
+/
 [VisItでの可視化メモ](pages/025_visualizaiton-using-visit/)
 
 ## June 2022
