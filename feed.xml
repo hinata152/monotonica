@@ -23,6 +23,25 @@
 
 <item>
   <title>
+    <![CDATA[  Podcast編集メモ  ]]>
+  </title>
+  <link> https://hinata152.github.io/monotonica/pages/026_podcast-audio-processing/index.html </link>
+  <guid> https://hinata152.github.io/monotonica/pages/026_podcast-audio-processing/index.html </guid>
+  <description>
+    <![CDATA[  音源編集で得た知見。  ]]>
+  </description>  
+    
+  <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>hinagata</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
     <![CDATA[  VisItでの可視化メモ  ]]>
   </title>
   <link> https://hinata152.github.io/monotonica/pages/025_visualizaiton-using-visit/index.html </link>
