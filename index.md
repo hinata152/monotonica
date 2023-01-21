@@ -7,6 +7,10 @@ rss = "monotonica"
 
 # Articles
 
+## January 2023
+
+[monotonicaの論文読み](pages/027_monotonica-rss/)
+
 ## July 2022
 
 [Podcast編集メモ](pages/026_podcast-audio-processing/)
