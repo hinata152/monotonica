@@ -7,6 +7,10 @@ rss = "monotonica"
 
 # Articles
 
+## February 2023
+
+[monotonicaの論文読み (2)](pages/028_monotonica-paperread/)
+
 ## January 2023
 
 [monotonicaの論文読み](pages/027_monotonica-rss/)
