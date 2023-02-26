@@ -76,10 +76,14 @@ tags = ["misc"]
 
 - `Ctrl+b`: Bold
 - `Ctrl+i`: Italic
-- [x] `Alt+c`: Toggle CheckBox
-  - [x] 複数行を選択して一気にチェックすることも可
+- `Alt+c`: Toggle CheckBox
+  - 複数行を選択して一括でチェックすることも可
 - `Ctrl+k v`: Open Preview to the Side
   - `Ctrl+Shift+v`からの`Ctrl+Alt+(Right|Left)Arrow`でもOK
+- `Ctrl+]`: Indent Line（行のインデント）
+- `Ctrl+[`: Outdent Line（行のインデント解除）
+- `Ctrl+k`からの`Ctrl+l`: 折りたたみの切り替え
+  - 既定のショートカットキーを上書きしているかもしれない。
 
 ### 表
 
