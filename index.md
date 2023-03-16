@@ -7,6 +7,10 @@ rss = "monotonica"
 
 # Articles
 
+## March 2023
+
+[アプリのフォント設定](pages/029_font-setting/)
+
 ## February 2023
 
 [monotonicaの論文読み (2)](pages/028_monotonica-paperread/)
